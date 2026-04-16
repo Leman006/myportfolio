@@ -71,7 +71,7 @@ export default function Contact() {
                         />
                       </svg>
                     ),
-                    href: "https://www.linkedin.com/in/leman-besirli-37b30630b/",
+                    href: "https://www.linkedin.com/in/leman-bashirli-37b30630b/",
                   },
                   {
                     id: "github",
