@@ -47,13 +47,13 @@ export default function About() {
 
               <div className="skills-wrap">
                 {[
-                  ["Python", 92],
-                  ["Django", 88],
-                  ["React", 82],
-                  ["JavaScript", 95],
+                  ["Python", 98],
+                  ["Django", 95],
+                  ["React", 92],
+                  ["JavaScript", 90],
                   ["React Native", 90],
                   ["HTML/CSS", 95],
-                  ["SQL", 80],
+                  ["SQL", 90],
                 ].map(([name, pct]) => (
                   <SkillBar key={name} name={name} pct={pct} />
                 ))}
