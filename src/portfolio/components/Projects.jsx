@@ -18,7 +18,12 @@ export default function Projects({ projects }) {
         <div className="projects-grid">
           {projects.map((p, i) => (
             <FadeUp key={p.name} delay={i * 80}>
-              <div className="project-card">
+              <a
+                href={p.link}
+                target="_blank"
+                rel="noreferrer"
+                className="project-card"
+              >
                 <div
                   className="project-thumb"
                   style={{
@@ -38,16 +43,8 @@ export default function Projects({ projects }) {
                   </div>
                   <div className="project-name">{p.name}</div>
                   <div className="project-desc">{p.desc}</div>
-                  <a
-                    href={p.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="project-link"
-                  >
-                    View Project &rarr;
-                  </a>
                 </div>
-              </div>
+              </a>
             </FadeUp>
           ))}
         </div>
@@ -55,4 +52,3 @@ export default function Projects({ projects }) {
     </section>
   );
 }
-

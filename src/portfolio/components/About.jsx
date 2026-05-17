@@ -50,6 +50,8 @@ export default function About() {
                   ["Python", 92],
                   ["Django", 88],
                   ["React", 82],
+                  ["JavaScript", 95],
+                  ["React Native", 90],
                   ["HTML/CSS", 95],
                   ["SQL", 80],
                 ].map(([name, pct]) => (

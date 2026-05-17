@@ -384,6 +384,9 @@ const style = `
     margin-top: 56px;
   }
   .project-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
     background: var(--white);
     border-radius: 20px;
     overflow: hidden;
@@ -436,18 +439,6 @@ const style = `
     line-height: 1.7;
     color: var(--text-light);
   }
-  .project-link {
-    display: inline-flex; align-items: center; gap: 6px;
-    margin-top: 16px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--pink-deep);
-    text-decoration: none;
-    letter-spacing: 0.05em;
-    transition: gap 0.2s;
-  }
-  .project-link:hover { gap: 10px; }
-
   /* ── EXPERIENCE ──────────────────────────── */
   #experience { background: var(--white); }
   .timeline {
