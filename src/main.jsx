@@ -893,10 +893,36 @@ const skills = [
 ];
 
 const certs = [
-  { name: "Back-end (Python)", issuer: "IT Brains Academy, 2025", icon: "🐍" },
-  { name: "Front-end Development", issuer: "Div Academy, 2025", icon: "💻" },
-  { name: "IT Automation with Python", issuer: "Google", icon: "🤖" },
-  { name: "Python for Everybody", issuer: "University of Michigan", icon: "🎓" },
+  {
+    name: "Python for Everybody",
+    issuer: "University of Michigan",
+    icon: "🎓",
+  },
+  {
+    name: "IT Automation with Python",
+    issuer: "Google",
+    icon: "🤖",
+  },
+  {
+    name: "Back-End Development (Python)",
+    issuer: "IT Brains Academy",
+    icon: "🐍",
+  },
+  {
+    name: "Front-End Development",
+    issuer: "Div Academy",
+    icon: "💻",
+  },
+  {
+    name: "Web Application Technologies and Django",
+    issuer: "University of Michigan",
+    icon: "🌐",
+  },
+  {
+    name: "Generative AI SQL Database Specialist",
+    issuer: "Vanderbilt University",
+    icon: "🧠",
+  },
 ];
 
 const experience = [

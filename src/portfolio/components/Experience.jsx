@@ -29,6 +29,41 @@ const education = [
   },
 ];
 
+const volunteering = [
+  {
+    period: "—",
+    role: "Volunteer",
+    company: "DOST Center",
+    desc: "Assisted citizens with digital services and social support programs.",
+    dot: "dot-mint",
+    icon: "🤝",
+  },
+  {
+    period: "2019",
+    role: "Volunteer",
+    company: "European Youth Olympic Festival",
+    desc: "Supported international event operations; practiced cross-cultural communication in English.",
+    dot: "dot-pink",
+    icon: "🏅",
+  },
+  {
+    period: "2025",
+    role: "Volunteer",
+    company: "SocGov 2025: Artificial intelligence for Humanity and Transformation",
+    desc: "Assisted in coordinating event logistics.",
+    dot: "dot-mint",
+    icon: "🤖",
+  },
+  {
+    period: "2025",
+    role: "Volunteer",
+    company: "Future Professions Summit: Baku 2025",
+    desc: "Assisted in coordinating event logistics.",
+    dot: "dot-pink",
+    icon: "🚀",
+  },
+];
+
 /* eslint-disable react/prop-types */
 export default function Experience({ experience }) {
   return (
@@ -58,6 +93,18 @@ export default function Experience({ experience }) {
         <div className="timeline" style={{ marginTop: 32 }}>
           {education.map((item, i) => (
             <TimelineItem key={i} item={item} index={i} />
+          ))}
+        </div>
+
+        <FadeUp delay={200}>
+          <div className="section-label" style={{ marginTop: 64 }}>
+            <span>Volunteering</span>
+          </div>
+        </FadeUp>
+
+        <div className="timeline" style={{ marginTop: 32 }}>
+          {volunteering.map((item, i) => (
+            <TimelineItem key={`vol-${i}`} item={item} index={i} />
           ))}
         </div>
       </div>
