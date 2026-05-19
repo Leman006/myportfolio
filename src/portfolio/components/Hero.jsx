@@ -10,7 +10,7 @@ export default function Hero({ onNavigate }) {
         <h1 className="hero-name">
           Leman
           <br />
-          <span>Beshirli</span>
+          <span>Bashirli</span>
         </h1>
         <p className="hero-role">Full-Stack Developer · Baku, Azerbaijan</p>
 

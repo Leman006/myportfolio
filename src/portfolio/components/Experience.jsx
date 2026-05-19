@@ -31,7 +31,7 @@ const education = [
 
 const volunteering = [
   {
-    period: "—",
+    period: "2025",
     role: "Volunteer",
     company: "DOST Center",
     desc: "Assisted citizens with digital services and social support programs.",
