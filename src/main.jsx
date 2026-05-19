@@ -901,7 +901,7 @@ const certs = [
 
 const experience = [
   {
-    period: "2026 — Present",
+    period: "2026",
     role: "Full-stack developer",
     company: "FeedSync",
     desc: "Developed server-side applications using Django. Designed and implemented RESTful APIs for mobile integration. Participated in mobile app development and backend integration.",
@@ -909,11 +909,20 @@ const experience = [
     icon: "🚀",
   },
   {
+    period: "2026 · Baku, Azerbaijan",
+    role: "Front-End Developer Intern",
+    company:
+      "Center for Analysis and Coordination of the Fourth Industrial Revolution (4SİM)",
+    desc: "Contributed to the development of responsive user interfaces using modern JavaScript frameworks within an Agile team. Built and maintained reusable UI components, improved page performance, and ensured cross-browser compatibility. Integrated RESTful APIs, handled client-side state management, and debugged UI/UX issues. Participated in code reviews and followed Git workflows, including feature branches and pull requests.",
+    dot: "dot-pink",
+    icon: "💻",
+  },
+  {
     period: "2025",
     role: "Back-end Developer Intern",
     company: "VR Media Marketinq",
     desc: "Server-side applications development with the Django framework. Construction of REST APIs and data working with the database.",
-    dot: "dot-pink",
+    dot: "dot-mint",
     icon: "💼",
   },
 ];
