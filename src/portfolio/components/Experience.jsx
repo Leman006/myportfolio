@@ -31,6 +31,14 @@ const education = [
 
 const volunteering = [
   {
+    period: "August 2026 · Turkey",
+    role: "Global Volunteer",
+    company: "AIESEC — Leadership Development Experience",
+    desc: "Completed AIESEC's Global Volunteer program in Turkey, developing leadership skills through cross-cultural collaboration and social impact initiatives.",
+    dot: "dot-pink",
+    icon: "🌍",
+  },
+  {
     period: "2025",
     role: "Volunteer",
     company: "DOST Center",
